@@ -1,4 +1,47 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label:not([for="result"]),
+button,
+.result_wrapper {
+    margin-left: 100px;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+input{
+    margin-left: 20px;
+}
+
+button{
+    margin-top: 10px;
+}
 
 
+.maindiv {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.result_wrapper {
+    width: 65%;
+}
+
+.hide{
+    display: none;
+}
